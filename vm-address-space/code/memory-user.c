@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     }
     int num_mb = atoi(argv[1]) * 1000 * 1000;
     printf("%d\n", num_mb);
-    int *array = (int*)malloc(num_mb * sizeof(int));;
+    int *array = (int*)malloc(num_mb * sizeof(int));
 
     while (1)
     {
